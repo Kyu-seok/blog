@@ -14,7 +14,7 @@ import awsExports from "./aws-exports";
 Amplify.configure(awsExports);
 
 ReactDOM.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <div>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
