@@ -9,9 +9,6 @@ import About from "./pages/about"
 import Post from "./pages/post"
 import NotFound from "./pages/notfound"
 import "./global.css"
-import Amplify from "aws-amplify";
-import awsExports from "./aws-exports";
-Amplify.configure(awsExports);
 
 ReactDOM.render(
   <Router basename={process.env.PUBLIC_URL}>
