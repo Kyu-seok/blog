@@ -29,29 +29,29 @@ const About = () => {
                 <div className="skills-using">
                     <h3>Skill Stack</h3>
                     <div className="icon-shelf">
-                        <img className="icon" src={html} alt={""}></img>
-                        <img className="icon" src={css} alt={""}></img>
-                        <img className="icon" src={javascript} alt={""}></img>
-                        <img className="icon" src={react} alt={""}></img>
+                        <img className="icon" src={html}></img>
+                        <img className="icon" src={css}></img>
+                        <img className="icon" src={javascript}></img>
+                        <img className="icon" src={react}></img>
                     </div>
                     <div className="icon-shelf">
-                        <img className="icon" src={java} alt={""}></img>
-                        <img className="icon" src={c} alt={""}></img>
-                        <img className="icon" src={spring} alt={""}></img>
-                        <img className="icon" src={mysql} alt={""}></img>
+                        <img className="icon" src={java}></img>
+                        <img className="icon" src={c}></img>
+                        <img className="icon" src={spring}></img>
+                        <img className="icon" src={mysql}></img>
                     </div>
                     <div className="icon-shelf">
-                        <img className="icon" src={git} alt={""}></img>
-                        <img className="icon" src={docker} alt={""}></img>
-                        <img className="icon" src={linux} alt={""}></img>
-                        <img className="icon" src={vim} alt={""}></img>
+                        <img className="icon" src={git}></img>
+                        <img className="icon" src={docker}></img>
+                        <img className="icon" src={linux}></img>
+                        <img className="icon" src={vim}></img>
                     </div>
                 </div>
                 <div className="skills-learning">
                     <h4>Currently Learning</h4>
                     <div className="icon-shelf">
-                        <img className="icon" src={tensorflow} alt={""}></img>
-                        <img className="icon" src={python} alt={""}></img>
+                        <img className="icon" src={tensorflow}></img>
+                        <img className="icon" src={python}></img>
                     </div>
                 </div>
             </div>

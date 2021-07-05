@@ -11,7 +11,7 @@ import NotFound from "./pages/notfound"
 import "./global.css"
 
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router>
     <div>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />

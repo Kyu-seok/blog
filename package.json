@@ -2,13 +2,10 @@
   "name": "markdown-blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://yeumkyuseok.github.io/blog",
   "dependencies": {
-    "@aws-amplify/ui-react": "^1.2.4",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "aws-amplify": "^4.1.2",
     "bootstrap": "^4.6.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
@@ -24,9 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "node public/main.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "server": "node public/main.js"
   },
   "eslintConfig": {
     "extends": [
@@ -45,8 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
