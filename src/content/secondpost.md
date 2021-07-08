@@ -4,9 +4,8 @@ author: Your boy Q
 date: July 1, 2021
 ---
 
-If you are a programmer, you **should** know c/c++. 
-If you can't, **shame on you**. 
-You better not call yourself a programmer.
+If you are a programmer, you must know c/c++. 
+It is a mother language above all computer languages.
 
 __Below is from "C wikipedia"__
 
