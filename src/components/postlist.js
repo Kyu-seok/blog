@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Markdown from "react-markdown";
 import postlist from "../posts.json";
+import gfm from 'remark-gfm';
 import Button from "react-bootstrap/Button";
 import "../global.css";
 import "./components.css";
@@ -28,7 +29,7 @@ const PostList = () => {
                 </h1>
                 <p className="meta">Published on {post.date}</p>
                 </header>
-                <Markdown className ="card-content" children={excerptList[i]} />
+                <Markdown className ="card-content" remarkPlugins={[[gfm, {singleTilde: false}]]} children={excerptList[i]} />
                 <Link to={`/post/${post.id}`}>
                   <button type="button">Continue reading </button>
                 </Link>

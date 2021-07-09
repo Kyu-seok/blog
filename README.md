@@ -1,4 +1,4 @@
-website: yeumkyuseok.com
+https://yeumkyuseok.com/
 
 ## About Me
 

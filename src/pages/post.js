@@ -1,6 +1,7 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
 import Markdown from "react-markdown";
+import gfm from 'remark-gfm';
 import Layout from "../components/layout";
 import postlist from "../posts.json";
 import "./pages.css";
@@ -38,7 +39,7 @@ const Post = (props) => {
         <br />
         <br />
         <br />
-        <Markdown children={fetchedPost.content} escapeHtml={false} />
+        <Markdown remarkPlugins={[[gfm, {singleTilde: false}]]} children={fetchedPost.content} skipHtml={true}/>
         <br />
         <br />
         <br />
