@@ -6,8 +6,6 @@ date: July 8, 2021
 ## Intro
 Deadlock is a state when all process enter asleep state due to waiting of requested resources held by one another.
 
-![image of deadlock]()
-
 example of resources are : CPU, RAM, virtual memory, hard disk and etc.
 
 we can differenctiate the resources by
